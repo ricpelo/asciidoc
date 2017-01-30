@@ -4,6 +4,7 @@
 :imagesdir: images
 :stem: latexmath
 :lang: es
+:docinfo: shared
 
 ## Equations!
 
