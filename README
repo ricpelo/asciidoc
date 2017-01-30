@@ -1,3 +1,4 @@
+[NOTA: Con rbenv no haría falta usar `sudo` con `gem`.]
 $ sudo gem install asciidoctor
 $ sudo gem install coderay rouge pygments.rb
 $ sudo gem install asciidoctor-pdf --pre
