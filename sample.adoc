@@ -1,0 +1,37 @@
+= _Precompiled_ Math!
+:math:
+:imagesoutdir: generated_images
+:imagesdir: images
+:stem: latexmath
+:lang: es
+
+## Equations!
+
+[latexmath]
+++++
+k_{n+1} = n^2 + k_n^2 - k_{n-1}
+++++
+
+Some useful text! Formula for quadratic root:
+
+[stem]
+++++
+x = \int\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+++++
+
+Inline equation works too! latexmath:[a^2+b^2=c^2]. Or as stem
+stem:[a^2+b^2=c^2]. Pretty nice, huh?
+
+.Esto es una prueba
+[plantuml, diagram-classes, png, align=center]
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
+
