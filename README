@@ -2,10 +2,11 @@
 $ sudo gem install asciidoctor
 $ sudo gem install coderay rouge pygments.rb
 $ sudo gem install asciidoctor-pdf --pre
-$ sudo apt install bison flex libffi-dev libxml2-dev libgdk-pixbuf2.0-dev libcairo2-dev libpango1.0-dev ttf-lyx
+$ sudo apt install bison flex libffi-dev libxml2-dev libgdk-pixbuf2.0-dev libcairo2-dev libpango1.0-dev ttf-lyx ruby-dev cmake
 $ MATHEMATICAL_SKIP_STRDUP=1 sudo -E gem install mathematical --no-document
-$ sudo ln -sf /var/lib/gems/2.3.0/gems/mathematical-1.6.7/ext/mathematical/lasem/liblasem.so /usr/local/lib/liblasem.so
+$ sudo ln -sf /var/lib/gems/2.3.0/gems/mathematical-1.6.7/ext/mathematical/lib/liblasem.so /usr/local/lib/liblasem.so
 $ sudo ldconfig
+$ sudo gem install asciidoctor-mathematical asciidoctor-diagram
 
 - https://github.com/asciidoctor/asciidoctor-pdf/blob/master/data/themes/default-theme.yml
 - https://github.com/asciidoctor/asciidoctor-mathematical
