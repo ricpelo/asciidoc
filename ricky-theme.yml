@@ -24,7 +24,7 @@ font:
 page:
   background_color: ffffff
   layout: portrait
-  margin: [0.5in, 0.67in, 0.67in, 0.67in]
+  margin: [0.67in, 0.67in, 0.67in, 0.67in]
   # margin_inner and margin_outer keys are used for recto/verso print margins when media=press
   margin_inner: 0.75in
   margin_outer: 0.59in
@@ -118,7 +118,7 @@ block:
 caption:
   align: center
   font_size: $base_font_size * 0.95
-  font_style: italic
+  font_style: bold_italic
   # FIXME perhaps set line_height instead of / in addition to margins?
   margin_inside: $vertical_rhythm / 3
   #margin_inside: $vertical_rhythm / 4
